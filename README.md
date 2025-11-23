@@ -27,10 +27,10 @@ This is a basic memo application that allows users to create, view, edit, and ma
 ## Dependencies
 
 ```gradle
-- androidx.appcompat:appcompat:1.4.0
-- com.google.android.material:material:1.4.0
-- androidx.constraintlayout:constraintlayout:2.1.2
-- androidx.recyclerview:recyclerview:1.2.0
+implementation 'androidx.appcompat:appcompat:1.4.0'
+implementation 'com.google.android.material:material:1.4.0'
+implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+implementation 'androidx.recyclerview:recyclerview:1.2.0'
 ```
 
 ## Installation
@@ -88,8 +88,8 @@ app/src/main/java/com/example/memo/
 ├── ViewActivity.java          # Activity for viewing memo details
 ├── ReWriteActivity.java       # Activity for editing memos
 ├── MainAdapter.java           # RecyclerView adapter for memo list
-├── MemoItem.java             # Data model for memo items
-├── PreferenceManager.java    # Helper for SharedPreferences operations
+├── MemoItem.java              # Data model for memo items
+├── PreferenceManager.java     # Helper for SharedPreferences operations
 └── CancelPopup.java          # Popup dialog for confirmation
 ```
 
